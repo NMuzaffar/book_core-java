@@ -1,13 +1,9 @@
 package com.github.nmuzaffar.books.corejava.fundamentals;
 
-/**
- * This is the first sample program.
- */
+/** This is the first sample program. */
 public class FirstSample {
 
   public static void main(String[] args) {
     System.out.println("We will not use 'Hello, World!'");
   }
-
 }
- 

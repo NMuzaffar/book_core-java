@@ -2,9 +2,7 @@ package com.github.nmuzaffar.books.corejava.fundamentals.controlFlow;
 
 import java.util.Scanner;
 
-/**
- * This program demonstrates a <code>while</code> loop.
- */
+/** This program demonstrates a <code>while</code> loop. */
 public class Retirement {
 
   public static void main(String[] args) {
@@ -34,5 +32,4 @@ public class Retirement {
 
     System.out.println("You can retire in " + years + " years.");
   }
-
 }

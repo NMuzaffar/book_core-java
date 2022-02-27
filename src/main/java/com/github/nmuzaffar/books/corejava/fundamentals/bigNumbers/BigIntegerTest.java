@@ -3,9 +3,7 @@ package com.github.nmuzaffar.books.corejava.fundamentals.bigNumbers;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-/**
- * This program uses big numbers to compute the odds of winning the ground prize in a lottery.
- */
+/** This program uses big numbers to compute the odds of winning the ground prize in a lottery. */
 public class BigIntegerTest {
 
   public static void main(String[] args) {
@@ -24,12 +22,10 @@ public class BigIntegerTest {
     BigInteger lotteryOdds = BigInteger.ONE;
 
     for (int i = 1; i <= k; i++) {
-      lotteryOdds = lotteryOdds
-          .multiply(n.subtract(BigInteger.valueOf(i - 1)))
-          .divide(BigInteger.valueOf(i));
+      lotteryOdds =
+          lotteryOdds.multiply(n.subtract(BigInteger.valueOf(i - 1))).divide(BigInteger.valueOf(i));
     }
 
     System.out.printf("Your odds are 1 in %s. Good luck!%n", lotteryOdds);
   }
-
 }

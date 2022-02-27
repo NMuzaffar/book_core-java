@@ -1,8 +1,6 @@
 package com.github.nmuzaffar.books.corejava.fundamentals.arrays;
 
-/**
- * This program demonstrates a triangular array.
- */
+/** This program demonstrates a triangular array. */
 public class LotteryArray {
 
   public static void main(String[] args) {
@@ -36,5 +34,4 @@ public class LotteryArray {
       System.out.println();
     }
   }
-
 }

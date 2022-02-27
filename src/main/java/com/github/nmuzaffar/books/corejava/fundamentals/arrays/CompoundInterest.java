@@ -2,9 +2,7 @@ package com.github.nmuzaffar.books.corejava.fundamentals.arrays;
 
 import java.util.Arrays;
 
-/**
- * This program shows how to store tabular data in a 2D array.
- */
+/** This program shows how to store tabular data in a 2D array. */
 public class CompoundInterest {
 
   public static void main(String[] args) {
@@ -51,5 +49,4 @@ public class CompoundInterest {
       System.out.println();
     }
   }
-
 }

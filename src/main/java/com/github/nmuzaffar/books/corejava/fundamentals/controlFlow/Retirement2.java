@@ -2,9 +2,7 @@ package com.github.nmuzaffar.books.corejava.fundamentals.controlFlow;
 
 import java.util.Scanner;
 
-/**
- * This program demonstrates a <code>do/while</code> loop.
- */
+/** This program demonstrates a <code>do/while</code> loop. */
 public class Retirement2 {
 
   public static void main(String[] args) {
@@ -38,5 +36,4 @@ public class Retirement2 {
 
     } while (input.equals("N"));
   }
-
 }

@@ -2,9 +2,7 @@ package com.github.nmuzaffar.books.corejava.fundamentals.controlFlow;
 
 import java.util.Scanner;
 
-/**
- * This program demonstrates a <code>for</code> loop.
- */
+/** This program demonstrates a <code>for</code> loop. */
 public class LotteryOdds {
 
   public static void main(String[] args) {
@@ -28,5 +26,4 @@ public class LotteryOdds {
 
     System.out.println("Your odds are 1 in " + lotteryOdds + ". Good luck!");
   }
-
 }

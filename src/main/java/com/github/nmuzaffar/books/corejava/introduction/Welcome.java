@@ -1,8 +1,6 @@
 package com.github.nmuzaffar.books.corejava.introduction;
 
-/**
- * This program displays a greeting for the reader.
- */
+/** This program displays a greeting for the reader. */
 public class Welcome {
 
   public static void main(String[] args) {
@@ -13,5 +11,4 @@ public class Welcome {
     }
     System.out.println();
   }
-
 }

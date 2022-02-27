@@ -3,9 +3,7 @@ package com.github.nmuzaffar.books.corejava.fundamentals.arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- * This program demonstrates array manipulation.
- */
+/** This program demonstrates array manipulation. */
 public class LotteryDrawing {
 
   public static void main(String[] args) {
@@ -44,5 +42,4 @@ public class LotteryDrawing {
       System.out.println(r);
     }
   }
-
 }

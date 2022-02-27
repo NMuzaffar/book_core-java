@@ -3,9 +3,7 @@ package com.github.nmuzaffar.books.corejava.introduction.imageViewer;
 import javax.swing.*;
 import java.io.File;
 
-/**
- * A frame with a label to show an image.
- */
+/** A frame with a label to show an image. */
 class ImageViewerFrame extends JFrame {
 
   private static final int DEFAULT_WIDTH = 300;
@@ -32,20 +30,20 @@ class ImageViewerFrame extends JFrame {
 
     var openItem = new JMenuItem("Open");
     menu.add(openItem);
-    openItem.addActionListener(event -> {
-      // show file chooser dialog
-      int result = chooser.showOpenDialog(null);
+    openItem.addActionListener(
+        event -> {
+          // show file chooser dialog
+          int result = chooser.showOpenDialog(null);
 
-      // if file selected, set it as icon of the label
-      if (result == JFileChooser.APPROVE_OPTION) {
-        String name = chooser.getSelectedFile().getPath();
-        label.setIcon(new ImageIcon(name));
-      }
-    });
+          // if file selected, set it as icon of the label
+          if (result == JFileChooser.APPROVE_OPTION) {
+            String name = chooser.getSelectedFile().getPath();
+            label.setIcon(new ImageIcon(name));
+          }
+        });
 
     var exitItem = new JMenuItem("Exit");
     menu.add(exitItem);
     exitItem.addActionListener(event -> System.exit(0));
   }
-
 }
