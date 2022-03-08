@@ -1,4 +1,4 @@
-package com.github.nmuzaffar.books.corejava.introduction;
+package com.github.nmuzaffar.books.corejava.introduction.welcome;
 
 /** This program displays a greeting for the reader. */
 public class Welcome {

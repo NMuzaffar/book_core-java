@@ -1,17 +1,21 @@
-package com.github.nmuzaffar.books.corejava.objects_classes.customClasses;
+package com.github.nmuzaffar.books.corejava.objects_classes.packages.nested;
+
+// the classes in this file are part of this package
 
 import java.time.LocalDate;
 
-class Employee {
+// import statements come after the package statement
+
+public class Employee {
 
   private String name;
   private double salary;
   private LocalDate hireDay;
 
-  public Employee(String n, double s, int year, int month, int day) {
-    this.name = n;
-    this.salary = s;
-    this.hireDay = LocalDate.of(year, month, day);
+  public Employee(String name, double salary, int year, int month, int day) {
+    this.name = name;
+    this.salary = salary;
+    hireDay = LocalDate.of(year, month, day);
   }
 
   public String getName() {
